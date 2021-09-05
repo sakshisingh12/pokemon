@@ -1,0 +1,117 @@
+.heading{
+  text-align: center;
+  padding-bottom: 40px;
+  padding-top: 30px;
+  font-family: serif;
+  font: Times New Roman;
+  font-size: 60px;
+  border: 10px solid black;
+  background-color: whitesmoke;
+  margin: 30px 400px 10px 400px;
+  box-shadow: 10px 10px 5px #c9d4d3;
+}
+
+#button{
+  background-color: #292526;
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  box-shadow: 6px 6px 5px #c9d4d3;
+  margin-top: 36px;
+  padding-top: 0px;
+  padding-bottom: 10px;
+}
+
+.container{
+      text-align: center;
+      padding: 2px 16px;
+      padding-bottom: 50px;
+}
+
+#dropdownMenuLink{
+  text-align: center;
+   font-size: 25px;
+   box-shadow: 6px 6px 5px #c9d4d3;
+}
+
+.hry{
+  margin: 0 auto; 
+  float: none; 
+  margin-bottom: 10px; 
+  text-align: center;
+}
+
+.body{
+  backface-visibility: visible;
+  background-color: #34ebd5;
+}
+
+.row{
+  padding-left: 90px;
+  padding-right: 30px;
+}
+
+.column{
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+}
+
+#img{
+  height: 300px;
+  width: 300px;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  border: 1px solid #f3f3f3;
+  perspective: 1000px;
+  box-shadow: 10px 10px 5px #aaaaaa;
+  align-content: center;
+  margin: 0 auto; 
+  float: none; 
+  margin-bottom: 10px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: 1.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; 
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bcd3d4;
+  object-fit: cover;
+  border-top: 8px solid whitesmoke;
+  border-left: 8px solid whitesmoke;
+}
+
+.flip-card-back {
+  background-color: whitesmoke;
+  color: black;
+  font-family: serif,"Times New Roman";
+  font: Georgia;
+  transform: rotateY(180deg);
+  object-fit: cover;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 5px solid black;
+}
